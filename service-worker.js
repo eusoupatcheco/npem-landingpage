@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/npem-landingpage/precache-manifest.5c16dc808d0aaab8777f1f7432c61c53.js"
+  "/npem-landingpage/precache-manifest.c9c124fd6177cd27cf618299c6206add.js"
 );
 
 self.addEventListener('message', (event) => {
