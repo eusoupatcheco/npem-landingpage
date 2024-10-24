@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/npem-landingpage/static/css/main.0dbae4bb.chunk.css",
+    "main.js": "/npem-landingpage/static/js/main.628b3afc.chunk.js",
+    "main.js.map": "/npem-landingpage/static/js/main.628b3afc.chunk.js.map",
+    "runtime-main.js": "/npem-landingpage/static/js/runtime-main.48158454.js",
+    "runtime-main.js.map": "/npem-landingpage/static/js/runtime-main.48158454.js.map",
+    "static/css/2.5cd3cd78.chunk.css": "/npem-landingpage/static/css/2.5cd3cd78.chunk.css",
+    "static/js/2.1acda59c.chunk.js": "/npem-landingpage/static/js/2.1acda59c.chunk.js",
+    "static/js/2.1acda59c.chunk.js.map": "/npem-landingpage/static/js/2.1acda59c.chunk.js.map",
+    "static/js/3.1b2d6865.chunk.js": "/npem-landingpage/static/js/3.1b2d6865.chunk.js",
+    "static/js/3.1b2d6865.chunk.js.map": "/npem-landingpage/static/js/3.1b2d6865.chunk.js.map",
+    "index.html": "/npem-landingpage/index.html",
+    "precache-manifest.5c16dc808d0aaab8777f1f7432c61c53.js": "/npem-landingpage/precache-manifest.5c16dc808d0aaab8777f1f7432c61c53.js",
+    "service-worker.js": "/npem-landingpage/service-worker.js",
+    "static/css/2.5cd3cd78.chunk.css.map": "/npem-landingpage/static/css/2.5cd3cd78.chunk.css.map",
+    "static/css/main.0dbae4bb.chunk.css.map": "/npem-landingpage/static/css/main.0dbae4bb.chunk.css.map",
+    "static/js/2.1acda59c.chunk.js.LICENSE.txt": "/npem-landingpage/static/js/2.1acda59c.chunk.js.LICENSE.txt",
+    "static/media/service-01.webp": "/npem-landingpage/static/media/service-01.a9e11470.webp",
+    "static/media/service-02.webp": "/npem-landingpage/static/media/service-02.fe4ef3c6.webp",
+    "static/media/service-03.webp": "/npem-landingpage/static/media/service-03.58a9a47e.webp",
+    "static/media/slick-theme.css": "/npem-landingpage/static/media/slick.f97e3bbf.svg",
+    "static/media/whatsapp1.jpg": "/npem-landingpage/static/media/whatsapp1.d5e41f2b.jpg",
+    "static/media/whatsapp2.jpg": "/npem-landingpage/static/media/whatsapp2.6132004c.jpg",
+    "static/media/whatsapp3.jpg": "/npem-landingpage/static/media/whatsapp3.81eb5d6b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48158454.js",
+    "static/css/2.5cd3cd78.chunk.css",
+    "static/js/2.1acda59c.chunk.js",
+    "static/css/main.0dbae4bb.chunk.css",
+    "static/js/main.628b3afc.chunk.js"
+  ]
+}
