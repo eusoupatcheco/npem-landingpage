@@ -3,7 +3,7 @@ html {
 }
 /* Estilos Gerais */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,13 +28,19 @@ p {
 }
 
 .cta-btn {
-  background-color: #fff;
-  color: #00A859;
+  position: relative;
   padding: 15px 30px;
-  text-decoration: none;
   font-weight: bold;
+  color: #00A859;
+  background-color: #fff;
   border-radius: 5px;
+  text-decoration: none;
   transition: background-color 0.3s ease;
+  animation: pulse 2s infinite; /* Adiciona o efeito de pulso */
+}
+
+.cta-btn:hover, .contact-btn:hover {
+  background-color: #ddd;
 }
 
 .cta-btn:hover {
@@ -82,6 +88,55 @@ p {
   color: #555;
 }
 
+
+/* Sessão de apresentação do serviço */
+.service-description-section {
+  background-color: #f5f5f5; /* Cor suave de fundo */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.service-description-section h2 {
+  font-size: 2em;
+  color: #00A859;
+  margin-bottom: 20px;
+}
+
+.service-description-content {
+  display: flex;
+  flex-direction: column; /* Alinha em coluna para dispositivos móveis */
+  gap: 20px;
+}
+
+/* Estilo de cada item de serviço */
+.service-descripion-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Transição suave */
+}
+
+.service-descripion-item:hover {
+  transform: translateY(-5px); /* Eleva o item ao passar o mouse */
+}
+
+.service-descripion-item h3 {
+  color: #00A859;
+  margin-bottom: 10px;
+}
+
+.service-descripion-item p {
+  color: #333;
+  line-height: 1.6;
+}
+
+.service-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+}
 
 /* Estilo para a seção de depoimentos */
 #depoimentos {
@@ -136,15 +191,15 @@ p {
 }
 
 .whatsapp-btn {
-  background-color: #25D366;
-  color: white;
+  position: relative;
   padding: 15px 30px;
-  text-decoration: none;
   font-weight: bold;
+  color: #00A859;
+  background-color: #fff;
   border-radius: 5px;
-  display: inline-block;
-  margin-top: 20px;
+  text-decoration: none;
   transition: background-color 0.3s ease;
+  animation: pulse 2s infinite; /* Adiciona o efeito de pulso */
 }
 
 .whatsapp-btn:hover {
@@ -194,15 +249,29 @@ footer {
   text-align: center;
 }
 
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6); /* Cor verde com opacidade para o pulso */
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(0, 168, 89, 0); /* Espalha o pulso e some */
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 168, 89, 0); /* Reinicia o pulso */
+  }
+}
+
+
 
 /* Responsividade */
 @media (max-width: 768px) {
-  .servicos-container, .depoimentos-container {
+  .servicos-container, .depoimentos-container, .service-description-content {
       flex-direction: column;
       align-items: center;
   }
 
-  .servico, .depoimento {
+  .servico, .depoimento, .service-description-item {
       max-width: 90%;
   }
 }
+

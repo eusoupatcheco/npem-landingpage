@@ -38,8 +38,8 @@ const Services = () => {
         </div>
 
         <div className="service-item">
-          <img src={serviceImage3} alt="Higienização de Estofados de Carro" />
-          <h3>Higienização de Estofados de Carro</h3>
+          <img src={serviceImage3} alt="Higienização de interior automotivo" />
+          <h3>Higienização de interior automotivo</h3>
           <p>Mantenha seu carro limpo e cheiroso com a higienização profissional de estofados.</p>
         </div>
       </Slider>
