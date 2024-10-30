@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20ea1a6d6b57b8f3bf8ab05c2572b0a8",
+    "revision": "28f9035b87d79457171ee189fb9d0548",
     "url": "/npem-landingpage/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/npem-landingpage/static/css/2.b707febd.chunk.css"
   },
   {
-    "revision": "2a82ef06e93526309313",
-    "url": "/npem-landingpage/static/css/main.ad6c8ebf.chunk.css"
+    "revision": "73ba7f01060deb6e01a3",
+    "url": "/npem-landingpage/static/css/main.af6e02ba.chunk.css"
   },
   {
     "revision": "9d68d48731b9a2f93364",
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/npem-landingpage/static/js/3.1b2d6865.chunk.js"
   },
   {
-    "revision": "2a82ef06e93526309313",
+    "revision": "73ba7f01060deb6e01a3",
     "url": "/npem-landingpage/static/js/main.52577b15.chunk.js"
   },
   {

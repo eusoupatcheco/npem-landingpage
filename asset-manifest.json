@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/npem-landingpage/static/css/main.ad6c8ebf.chunk.css",
+    "main.css": "/npem-landingpage/static/css/main.af6e02ba.chunk.css",
     "main.js": "/npem-landingpage/static/js/main.52577b15.chunk.js",
     "main.js.map": "/npem-landingpage/static/js/main.52577b15.chunk.js.map",
     "runtime-main.js": "/npem-landingpage/static/js/runtime-main.48158454.js",
@@ -11,10 +11,10 @@
     "static/js/3.1b2d6865.chunk.js": "/npem-landingpage/static/js/3.1b2d6865.chunk.js",
     "static/js/3.1b2d6865.chunk.js.map": "/npem-landingpage/static/js/3.1b2d6865.chunk.js.map",
     "index.html": "/npem-landingpage/index.html",
-    "precache-manifest.7277272836db92fb0ab88afc05f79f52.js": "/npem-landingpage/precache-manifest.7277272836db92fb0ab88afc05f79f52.js",
+    "precache-manifest.1318a1ad13cdde245aeef3c73353946b.js": "/npem-landingpage/precache-manifest.1318a1ad13cdde245aeef3c73353946b.js",
     "service-worker.js": "/npem-landingpage/service-worker.js",
     "static/css/2.b707febd.chunk.css.map": "/npem-landingpage/static/css/2.b707febd.chunk.css.map",
-    "static/css/main.ad6c8ebf.chunk.css.map": "/npem-landingpage/static/css/main.ad6c8ebf.chunk.css.map",
+    "static/css/main.af6e02ba.chunk.css.map": "/npem-landingpage/static/css/main.af6e02ba.chunk.css.map",
     "static/js/2.1a727a57.chunk.js.LICENSE.txt": "/npem-landingpage/static/js/2.1a727a57.chunk.js.LICENSE.txt",
     "static/media/index.css": "/npem-landingpage/static/media/nunito-sans-vietnamese-400-normal.c8eaa58e.woff2",
     "static/media/print.jpg": "/npem-landingpage/static/media/print.4886cbc5.jpg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.48158454.js",
     "static/css/2.b707febd.chunk.css",
     "static/js/2.1a727a57.chunk.js",
-    "static/css/main.ad6c8ebf.chunk.css",
+    "static/css/main.af6e02ba.chunk.css",
     "static/js/main.52577b15.chunk.js"
   ]
 }
