@@ -1,9 +1,9 @@
 import React from 'react';
-import HeroSection from './components/HeroSection';
+import Hero from './components/Hero';
 import Services from './components/Services';
-import ServiceSection from './components/ServiceSection';
-import TestimonialsSection from './components/TestimonialsSection';
-import ContactSection from './components/ContactSection';
+import Description from './components/Description';
+import Testimonials from './components/Testimonials';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 import '@fontsource/nunito-sans'; // Importa a fonte padrão
@@ -16,11 +16,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <HeroSection />
+      <Hero />
       <Services />
-      <ServiceSection />
-      <TestimonialsSection />
-      <ContactSection />
+      <Description />
+      <Testimonials />
+      <Contact />
       <Footer />
     </div>
   );

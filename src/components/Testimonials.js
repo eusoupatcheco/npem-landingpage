@@ -5,7 +5,7 @@ import whatsappPrint1 from './images/print.jpg';
 
 const TestimonialsSection = () => {
   return (
-    <section id="depoimentos" style={{ padding: "50px 20px", backgroundColor: "#f9f9f9", textAlign: "center" }}>
+    <section id="testimonials">
       <h2>O que nossos clientes estão dizendo</h2>
 
       <div className="testimonials-container">

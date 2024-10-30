@@ -3,9 +3,9 @@ import React from 'react';
 import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { SiTiktok } from 'react-icons/si'; // Ícone do TikTok
 
-const ContactSection = React.forwardRef((props, ref) => {
+const Contact = React.forwardRef((props, ref) => {
   return (
-    <section id="contato" ref={ref}>
+    <section id="contact" ref={ref}>
       <h2>Entre em Contato</h2>
       <p>Pronto para agendar sua higienização? Fale conosco via WhatsApp!</p>
       
@@ -51,4 +51,4 @@ const ContactSection = React.forwardRef((props, ref) => {
   );
 });
 
-export default ContactSection;
+export default Contact;

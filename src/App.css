@@ -19,7 +19,7 @@ p {
 
 
 /* Header com Call to Action */
-.hero-section {
+.hero-header {
   background-color: #00A859;
   color: white;
   padding: 20px 20px;
@@ -27,7 +27,7 @@ p {
   transition: all 0.3s ease; /* Transição suave */
 }
 
-.cta-btn {
+.call-to-action-btn {
   position: relative;
   padding: 15px 30px;
   font-weight: bold;
@@ -39,17 +39,17 @@ p {
   animation: pulse 2s infinite; /* Adiciona o efeito de pulso */
 }
 
-.cta-btn:hover, .contact-btn:hover {
+.call-to-action-btn:hover, .contact-btn:hover {
   background-color: #ddd;
 }
 
-.cta-btn:hover {
+.call-to-action-btn:hover {
   background-color: #ddd;
 }
 
 
 /* Seção de Serviços */
-#servicos {
+#services {
   padding: 50px 20px;
   background-color: #f4f4f4;
   text-align: center;
@@ -90,26 +90,27 @@ p {
 
 
 /* Sessão de apresentação do serviço */
-.service-description-section {
+#description {
   background-color: #f5f5f5; /* Cor suave de fundo */
   padding: 50px 20px;
   text-align: center;
+  width: 100%;
 }
 
-.service-description-section h2 {
+#description h2 {
   font-size: 2em;
   color: #00A859;
   margin-bottom: 20px;
 }
 
-.service-description-content {
+.description-content {
   display: flex;
   flex-direction: column; /* Alinha em coluna para dispositivos móveis */
   gap: 20px;
 }
 
 /* Estilo de cada item de serviço */
-.service-descripion-item {
+.descripion-item {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
@@ -117,21 +118,21 @@ p {
   transition: transform 0.3s ease; /* Transição suave */
 }
 
-.service-descripion-item:hover {
+.descripion-item:hover {
   transform: translateY(-5px); /* Eleva o item ao passar o mouse */
 }
 
-.service-descripion-item h3 {
+.descripion-item h3 {
   color: #00A859;
   margin-bottom: 10px;
 }
 
-.service-descripion-item p {
+.descripion-item p {
   color: #333;
   line-height: 1.6;
 }
 
-.service-image {
+.description-item img {
   width: 100%;
   height: auto;
   border-radius: 8px;
@@ -139,13 +140,13 @@ p {
 }
 
 /* Estilo para a seção de depoimentos */
-#depoimentos {
+#testimonials {
   padding: 50px 20px;
   background-color: #f9f9f9;
   text-align: center;
 }
 
-#depoimentos h2 {
+#testimonials h2 {
   font-size: 2em;
   margin-bottom: 30px;
 }
@@ -183,7 +184,7 @@ p {
 
 
 /* Seção de Contato */
-#contato {
+#contact {
   padding: 50px 20px;
   background-color: #00A859;
   color: white;
@@ -245,7 +246,7 @@ p {
 footer {
   background-color: #333;
   color: white;
-  padding: 10px 0;
+  padding: 5px 0;
   text-align: center;
 }
 
@@ -261,17 +262,25 @@ footer {
   }
 }
 
-
-
 /* Responsividade */
 @media (max-width: 768px) {
-  .servicos-container, .depoimentos-container, .service-description-content {
+  .services-container, .testimonials-container {
       flex-direction: column;
       align-items: center;
   }
+  #services, #testimonials {
+    max-width: 90%;
+}
 
-  .servico, .depoimento, .service-description-item {
-      max-width: 90%;
+  .description-content {
+
   }
+  .description-item {
+    max-width: 100%;
+  }
+  .descripion-image {
+    max-height: 250px;
+  }
+
 }
 

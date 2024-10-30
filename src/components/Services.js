@@ -20,7 +20,7 @@ const Services = () => {
   };
 
   return (
-    <section id="servicos">
+    <section id="services">
       <h2>Nossos Serviços</h2>
 
       {/* Carrossel de Serviços */}
